@@ -14,7 +14,7 @@ export class Solution {
     }
 
     // Create list of numbers between 1 and size inclusive.
-    const array = [...Array.from(Array(size), (_, x) => x + 1)];
+    const array = Array.from(Array(size), (_, x) => x + 1);
 
     for (let i = array.length - 1; i > 0; i--) {
       // Get random index value between 0 and length of array.
